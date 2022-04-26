@@ -59,7 +59,7 @@ p {
 }
 
 .container {
-	width: min(100% - 3.5rem, 77rem);
+	width: min(100% - 3.5rem, 80rem);
 	margin: 0 auto;
 	height: 100%;
 }
@@ -76,7 +76,7 @@ p {
 }
 
 .heading {
-	padding-top: 4rem;
+	padding-top: 2rem;
 	background-color: var(--top-bg-pattern);
 	padding-bottom: 12rem;
 }
@@ -150,7 +150,7 @@ p {
 	height: 1.5rem;
 	width: 1.5rem;
 	right: 0.25rem;
-	bottom: 0.3rem;
+	bottom: 0.25rem;
 	background: var(--bg-color);
 	transition: 0.4s;
 	border-radius: 2rem;
@@ -317,6 +317,6 @@ p {
 	}
 	.overview-grid {
 		grid-template-columns: repeat(4, 1fr);
-		grid-template-rows: repeat(4, 1fr);
+		grid-template-rows: repeat(2, 1fr);
 	}
 }
