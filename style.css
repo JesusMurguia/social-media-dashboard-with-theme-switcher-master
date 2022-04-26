@@ -19,7 +19,7 @@
 	--card-bg-hover: hsl(230, 28%, 25%);
 	--text1: hsl(228, 34%, 66%);
 	--text2: hsl(0, 0%, 100%);
-	--dark-mode-label: hsl(0, 0%, 100%);
+	--dark-mode-label: hsl(228, 34%, 66%);
 	--text3: hsl(0, 0%, 100%);
 
 	font-size: 14px;
