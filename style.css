@@ -16,6 +16,7 @@
 	--bg-color: hsl(0, 0%, 100%);
 	--top-bg-pattern: hsl(225, 100%, 98%);
 	--card-bg: hsl(227, 47%, 96%);
+	--card-bg-hover: hsla(234, 25%, 85%, 0.452);
 	--text1: hsl(228, 12%, 44%);
 	--text2: hsl(230, 17%, 14%);
 	--dark-mode-label: hsl(228, 7%, 55%);
@@ -30,6 +31,7 @@
 	--bg-color: hsl(230, 17%, 14%);
 	--top-bg-pattern: hsl(232, 19%, 15%);
 	--card-bg: hsl(228, 28%, 20%);
+	--card-bg-hover: hsl(230, 28%, 25%);
 	--text1: hsl(228, 34%, 66%);
 	--text2: hsl(0, 0%, 100%);
 	--dark-mode-label: hsl(0, 0%, 100%);
@@ -102,6 +104,11 @@ p {
 	margin-bottom: 0.5rem;
 }
 
+.card:hover {
+	cursor: pointer;
+	background-color: var(--card-bg-hover);
+}
+
 .theme-switcher {
 	display: flex;
 	align-items: center;
@@ -167,6 +174,7 @@ p {
 	text-align: center;
 	align-items: center;
 	gap: 1rem;
+	border-radius: 0.25rem;
 }
 
 .card.facebook::after {
