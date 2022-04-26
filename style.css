@@ -12,21 +12,6 @@
 	--instagram: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
 	--youtube: hsl(348, 97%, 39%);
 
-	--toggle: hsl(230, 22%, 74%);
-	--bg-color: hsl(0, 0%, 100%);
-	--top-bg-pattern: hsl(225, 100%, 98%);
-	--card-bg: hsl(227, 47%, 96%);
-	--card-bg-hover: hsla(234, 25%, 85%, 0.452);
-	--text1: hsl(228, 12%, 44%);
-	--text2: hsl(230, 17%, 14%);
-	--dark-mode-label: hsl(228, 7%, 55%);
-	--text3: hsl(228, 12%, 44%);
-
-	font-size: 14px;
-	font-family: "Inter", sans-serif;
-}
-
-.darkmode {
 	--toggle: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
 	--bg-color: hsl(230, 17%, 14%);
 	--top-bg-pattern: hsl(232, 19%, 15%);
@@ -36,6 +21,21 @@
 	--text2: hsl(0, 0%, 100%);
 	--dark-mode-label: hsl(0, 0%, 100%);
 	--text3: hsl(0, 0%, 100%);
+
+	font-size: 14px;
+	font-family: "Inter", sans-serif;
+}
+
+.ligthmode {
+	--toggle: hsl(230, 22%, 74%);
+	--bg-color: hsl(0, 0%, 100%);
+	--top-bg-pattern: hsl(225, 100%, 98%);
+	--card-bg: hsl(227, 47%, 96%);
+	--card-bg-hover: hsla(234, 25%, 85%, 0.452);
+	--text1: hsl(228, 12%, 44%);
+	--text2: hsl(230, 17%, 14%);
+	--dark-mode-label: hsl(228, 7%, 55%);
+	--text3: hsl(228, 12%, 44%);
 }
 
 body {
@@ -149,7 +149,7 @@ p {
 	content: "";
 	height: 1.5rem;
 	width: 1.5rem;
-	right: 0.25rem;
+	left: 0.25rem;
 	bottom: 0.25rem;
 	background: var(--bg-color);
 	transition: 0.4s;
@@ -157,7 +157,7 @@ p {
 }
 
 .switch input:checked + .slider::before {
-	transform: translateX(-2rem);
+	transform: translateX(2rem);
 }
 
 .main-grid > .container {
